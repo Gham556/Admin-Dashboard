@@ -91,7 +91,43 @@ button {
 
 .main {
     grid-column-start: 2;
+    background: #ccfbf1;
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 15px;
+    padding-bottom: 60px;
+    padding-top: 25px;
+    gap: 25px;
 }
+
+.mainContent {
+    grid-column-start: 1;
+}
+
+.projectHeader {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.card {
+    background: #FFFF;
+    height: 150px;
+    border-radius: 5%;
+    padding: 25px;
+}
+
+.card img {
+    height: 20px;
+}
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;   
+}
+
 
 /*sidebar*/
 
