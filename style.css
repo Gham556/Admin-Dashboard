@@ -14,8 +14,19 @@
 .header {
     grid-column-start: 2;
     padding: 10px 25px;
-
+    box-shadow: 0px 5px 5px grey;
 }
+
+.header .logo {
+    clip-path: circle();
+    height: 80%;
+}
+
+.header img {
+    height: 25px;
+}
+
+/*header row one*/
 
 .rowOne {
     grid-row-end: 2;
@@ -34,24 +45,47 @@
     margin-right: auto;
 }
 
-.rowTwo {
-    grid-row-end: 3;
-    display: flex;
-}
-.header .logo {
-    clip-path: circle();
-    height: 80%;
-}
-
-img {
-    height: 25px;
-}
 
 .name {
     font-weight: 700;
 }
+/*header row two*/
+
+.rowTwo {
+    grid-row-end: 3;
+    display: flex;
+    height: 90px;
+    align-items: center;
+    
+}
 
 
+.nameContainer {
+    display: grid;
+    grid-template-columns: repeat(auto);
+    margin-right: auto;
+}
+
+.namePlus {
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.buttonGrid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 25px;
+    height: 40%;
+}
+
+button {
+    background: #2dd4bf;
+    width: 5rem;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
 /*main*/
 
 .main {
