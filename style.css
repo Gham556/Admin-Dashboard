@@ -105,6 +105,8 @@ button {
     grid-column-start: 1;
 }
 
+/*cards*/
+
 .projectHeader {
     margin-bottom: 10px;
     font-weight: 700;
@@ -126,6 +128,20 @@ button {
     height: 20px;
 }
 
+.card * {
+    min-width: 0;
+    min-height: 0;
+    font-size: 1rem;
+}
+
+.card h1 {
+    flex-shrink: 0;
+}
+
+.card p {
+    overflow: overlay;
+}
+
 .cardContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -137,6 +153,37 @@ button {
     margin-top: auto;
 }
 
+/*right main*/
+
+.annHead {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.annBG {
+    background: #FFFF;
+    display: flex;
+}
+
+.annContent {
+    display: grid;
+    grid-template-columns: 70%;
+    grid-template-rows: repeat(3, 100px);
+    
+    margin-top: 10px;
+
+    justify-content: center;
+    flex-shrink: 1;
+}
+
+.annContent div {
+    font-size: .75rem;
+}
+.annOne {
+border-bottom: #000;
+border-style: none none solid none;
+
+}
 
 /*sidebar*/
 
