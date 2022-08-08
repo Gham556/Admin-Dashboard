@@ -189,6 +189,47 @@ border-style: none none solid none;
 
 }
 
+.trendContainer {
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+.trendHead {
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.trendBG {
+    background: #FFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.trendContainer img {
+    clip-path: circle();
+    height: 35px;
+    
+}
+
+.trendContainer * {
+    font-size: 1rem;
+}
+
+.trendContent {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, 50px);
+    gap: 20px;
+    padding: 10px 0px 15px 0px;
+}
+
+.trending {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
 /*sidebar*/
 
 .sidebar {
