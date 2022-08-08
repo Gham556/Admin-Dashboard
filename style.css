@@ -116,6 +116,10 @@ button {
     height: 150px;
     border-radius: 5%;
     padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+    box-shadow: -10px 0px 0px #d946ef;
 }
 
 .card img {
@@ -126,6 +130,11 @@ button {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;   
+}
+
+.cardIcons {
+    margin-left: auto;
+    margin-top: auto;
 }
 
 
